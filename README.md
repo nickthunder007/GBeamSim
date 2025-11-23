@@ -1,13 +1,13 @@
-# FSOBeamSim
+# GBeamSim
 
-**FSOBeamSim** is an interactive MATLAB App Designer project for visualizing how a Gaussian laser beam propagates through free space. It serves as an intuitive and educational platform that gradually guides users from fundamental optical beam physics to the basics of free-space optical (FSO) communication.
+**GBeamSim** is an interactive MATLAB App Designer project for visualizing how a Gaussian laser beam propagates through free space. It serves as an intuitive and educational platform that gradually guides users from fundamental optical beam physics to the basics of free-space optical (FSO) communication.
 
 ---
 
 ## ✨ Features
 
 ### **Interactive Gaussian Beam Simulation**
-FSOBeamSim allows users to adjust key beam parameters including beam waist, wavelength, and propagation distance using a slider-driven interface. The app provides **real-time visualization** of beam propagation with two primary visual outputs: an **x–y cross-section** at a chosen propagation distance and a **y–z propagation slice** extending to roughly 1.3× the Rayleigh range. These visualizations highlight fundamental Gaussian beam concepts such as Rayleigh range, beam divergence, and intensity decay, providing an intuitive understanding of how a Gaussian beam spreads as it travels.
+GBeamSim allows users to adjust key beam parameters including beam waist, wavelength, and propagation distance using a slider-driven interface. The app provides **real-time visualization** of beam propagation with two primary visual outputs: an **x–y cross-section** at a chosen propagation distance and a **y–z propagation slice** extending to roughly 1.3× the Rayleigh range. These visualizations highlight fundamental Gaussian beam concepts such as Rayleigh range, beam divergence, and intensity decay, providing an intuitive understanding of how a Gaussian beam spreads as it travels.
 
 ---
 
