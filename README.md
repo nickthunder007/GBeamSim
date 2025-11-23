@@ -52,4 +52,8 @@ FSOBeamSim aims to be:
 - A bridge between ideal Gaussian optics and real-world atmospheric effects  
 - A compact visualization tool demonstrating essential FSO communication principles  
 
+<p align="center">
+  <img src="media/file.gif" alt="Gaussian Beam Propagation" width="600">
+</p>
+
 
