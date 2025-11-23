@@ -1,6 +1,5 @@
 function [x,y,I] = calc_intensity(z0,lambda,w0)
 
-%lambda = 1000e-9;  % Wavelength (m)
 p = 1;             % Power (arbitrary units)
 
 % Choose the distance where you want the cross-section
