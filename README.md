@@ -53,7 +53,7 @@ FSOBeamSim aims to be:
 - A compact visualization tool demonstrating essential FSO communication principles  
 
 <p align="center">
-  <img src="media/file.gif" alt="Gaussian Beam Propagation" width="600">
+  <img src="media/gb.gif" alt="Gaussian Beam Propagation" width="600">
 </p>
 
 
