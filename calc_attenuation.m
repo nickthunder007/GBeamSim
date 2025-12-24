@@ -15,7 +15,7 @@ function [Y,Z,intensity_attenuation,intensity_rad_attenuation] = calc_attenuatio
    alpha_total_linear = alpha_total_linear/1000; % 1/km -> 1/m
    
    [mashgZ, Z,Y,I] = calc_intensity_transvers(lambda*1e-9,w0); %lambda nm -> m
-   [~,~,I_rad] = calc_intensity(range,lambda,w0);
+   [~,~,I_rad] = calc_intensity(range,lambda*1e-9,w0);
    
    %assignin('base','exponent',exp(-alpha_total_linear*mashgZ));
    intensity_attenuation = I .* exp(-alpha_total_linear*mashgZ);
