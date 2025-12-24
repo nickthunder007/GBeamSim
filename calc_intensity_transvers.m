@@ -1,4 +1,4 @@
-function [z,y,I] = calc_intensity_transvers(lambda,w0)   
+function [Z,z,y,I] = calc_intensity_transvers(lambda,w0)   
 
     Nz = 500;           % number of z points
     Ny = 200;           % number of y points
@@ -12,12 +12,14 @@ function [z,y,I] = calc_intensity_transvers(lambda,w0)
     y = linspace(-yMax, yMax, Ny);
     
     [Y,Z] = meshgrid(y, z);  % y along rows, z along columns
-    
+    %assignin('base','meshg_calc_trans_z',Z);
+    %assignin('base','calc_trans_z',z);
 
     % Beam radius at each z
     w = w0 * sqrt(1 + (Z/z_R).^2);   % element-wise
     
     % Intensity
     I = I0 * (w0./w).^2 .* exp(-2*Y.^2 ./ w.^2);
+    %assignin('base','I',I);
 
 end
